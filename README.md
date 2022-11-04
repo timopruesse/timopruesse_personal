@@ -1,6 +1,6 @@
 # timo-pruesse.de
 
-The source code of https://timo-pruesse.de/.
+The source code of https://www.timo-pruesse.de/.
 
 ---
 

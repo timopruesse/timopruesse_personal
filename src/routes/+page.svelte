@@ -16,6 +16,7 @@
 					baseType="jpg"
 					src={{ jpg: '/images/timo_small.jpg', webp: '/images/timo_small.webp' }}
 					class="block lg:hidden rounded-full shadow-xl mx-auto -mt-32 h-48 w-48 object-cover object-center"
+					alt="Avatar of Timo"
 				/>
 
 				<h1 class="text-5xl font-semibold mt-10 lg:mt-0">Timo Prüße</h1>

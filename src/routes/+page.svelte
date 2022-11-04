@@ -6,6 +6,11 @@
 	import Image from '$lib/image/image.svelte';
 </script>
 
+<svelte:head>
+	<title>Personal website of Timo Prüße</title>
+	<meta name="description" content="This is the personal website of Timo Prüße." />
+</svelte:head>
+
 <section class="min-h-screen w-screen overflow-hidden bg-cover antialiased xl:px-6">
 	<div class="max-w-screen-xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-32 lg:mt-0">
 		<div

@@ -15,5 +15,5 @@
 	{#each extraSources as type}
 		<source srcset={src[type]} type="image/{type}" />
 	{/each}
-	<img bind:this={instance} {...$$restProps} {alt} {title} src={baseUrl} loading="lazy" />
+	<img bind:this={instance} {...$$restProps} {alt} {title} src={baseUrl} />
 </picture>

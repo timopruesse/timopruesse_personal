@@ -7,7 +7,7 @@
 </script>
 
 <section class="min-h-screen w-screen overflow-hidden bg-cover antialiased xl:px-6">
-	<div class="max-w-screen-xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-28 lg:mt-0">
+	<div class="max-w-screen-xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-32 lg:mt-0">
 		<div
 			class="w-full lg:w-1/2 xl:w-3/5 rounded-l-xl max-lg:rounded-r-xl shadow-2xl bg-primary-1/60 backdrop-blur-lg mx-4 lg:mx-0 text-accent-1"
 		>
@@ -46,7 +46,7 @@
 					<Pin class="h-8 text-accent-0 mr-2 lg:mr-6 group-hover:text-accent-1" />
 					Braunschweig / Hamburg
 				</p>
-				<div class="mt-10 font-serif flex relative py-8 group">
+				<div class="mt-14 font-serif flex relative py-8 group">
 					<div
 						class="pointer-events-none w-16 h-16 text-7xl text-accent-0 group-hover:text-accent-1 absolute top-0 left-0 pl-3 pt-2 rounded-tl-xl border-l border-t border-accent-0/20 group-hover:border-accent-0/30"
 					>
@@ -65,7 +65,7 @@
 				</div>
 
 				<div
-					class="pt-12 mt-12 pb-4 lg:pb-6 w-4/5 lg:w-full mx-auto flex flex-wrap gap-x-16 items-center justify-center border-t border-accent-0/25"
+					class="mt-12 pb-4 lg:pb-6 w-4/5 lg:w-full mx-auto flex flex-wrap gap-x-16 items-center justify-center"
 				>
 					<ContactLink
 						url="https://twitter.com/TimoPruesse/"

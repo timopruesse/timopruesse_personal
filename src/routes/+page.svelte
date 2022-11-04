@@ -1,45 +1,49 @@
 <script lang="ts">
 	import ContactLink from '$lib/contactLink.svelte';
 	import Briefcase from '$lib/icons/briefcase.svelte';
+	import Office from '$lib/icons/office.svelte';
 	import Pin from '$lib/icons/pin.svelte';
 	import Image from '$lib/image/image.svelte';
 </script>
 
-<section class="min-h-screen w-screen overflow-hidden bg-cover antialiased">
-	<div class="max-w-screen-xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+<section class="min-h-screen w-screen overflow-hidden bg-cover antialiased xl:px-6">
+	<div class="max-w-screen-xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-28 lg:mt-0">
 		<div
-			class="w-full lg:w-3/5 rounded-l-xl max-lg:rounded-r-xl shadow-2xl bg-primary-1/60 backdrop-blur-lg mx-6 lg:mx-0 text-accent-1"
+			class="w-full lg:w-1/2 xl:w-3/5 rounded-l-xl max-lg:rounded-r-xl shadow-2xl bg-primary-1/60 backdrop-blur-lg mx-4 lg:mx-0 text-accent-1"
 		>
 			<div class="p-4 md:px-12 pt-12 pb-8 text-center lg:text-left">
 				<Image
 					baseType="jpg"
 					src={{ jpg: '/images/timo_small.jpg', webp: '/images/timo_small.webp' }}
-					class="block lg:hidden rounded-full shadow-xl mx-auto -mt-32 h-52 w-52 object-cover object-center"
+					class="block lg:hidden rounded-full shadow-xl mx-auto -mt-32 h-48 w-48 object-cover object-center"
 				/>
 
 				<h1 class="text-5xl font-semibold mt-10 lg:mt-0">Timo Prüße</h1>
 				<div class="mx-auto pt-6 border-b border-accent-0/25" />
-				<div
-					class="mt-8 text-xl lg:text-2xl font-semibold flex items-center justify-center lg:justify-start group"
-				>
-					<Briefcase class="h-8 text-accent-0 lg:mr-6 group-hover:text-accent-1" />
-					<p>
-						<span class="lg:mr-[0.5ch]">Full-Stack-Developer</span>
-						<a
-							href="https://no.studio"
-							target="_blank"
-							rel="noopener noreferrer"
-							class="inline-block hover:text-accent-2 transform-gpu hover:scale-110 transition-transform origin-left will-change-transform"
-						>
-							@niceoutside
-						</a>
-					</p>
-				</div>
 				<p
-					class="mt-4 font-semibold text-xl lg:text-2xl flex items-center justify-center lg:justify-start group"
+					class="mt-4 font-semibold text-xl xl:text-2xl flex items-center justify-center lg:justify-start group"
 				>
-					<Pin class="h-8 text-accent-0 lg:mr-6 group-hover:text-accent-1" />
-					Braunschweig
+					<Office class="h-8 text-accent-0 mr-2 lg:mr-6 group-hover:text-accent-1" />
+					<a
+						href="https://no.studio"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="hover:text-accent-2 transform-gpu hover:scale-110 transition-transform origin-left will-change-transform whitespace-nowrap"
+					>
+						@niceoutside
+					</a>
+				</p>
+				<p
+					class="mt-4 font-semibold text-xl xl:text-2xl flex items-center justify-center lg:justify-start group"
+				>
+					<Briefcase class="h-8 text-accent-0 mr-2 lg:mr-6 group-hover:text-accent-1" />
+					Full-Stack-Developer
+				</p>
+				<p
+					class="mt-4 font-semibold text-xl xl:text-2xl flex items-center justify-center lg:justify-start group"
+				>
+					<Pin class="h-8 text-accent-0 mr-2 lg:mr-6 group-hover:text-accent-1" />
+					Braunschweig / Hamburg
 				</p>
 				<div class="mt-10 font-serif flex relative py-8 group">
 					<div
@@ -47,7 +51,9 @@
 					>
 						“
 					</div>
-					<p class="px-20 flex-1 text-3xl italic text-accent-1/80 group-hover:text-accent-1">
+					<p
+						class="px-16 xl:px-20 flex-1 lg:text-2xl xl:text-3xl italic text-accent-1/80 group-hover:text-accent-1"
+					>
 						I love teaching machines how to solve problems.
 					</p>
 					<div
@@ -58,7 +64,7 @@
 				</div>
 
 				<div
-					class="pt-6 mt-12 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap gap-x-16 items-center justify-center border-t border-accent-0/25"
+					class="pt-12 mt-12 pb-4 lg:pb-6 w-4/5 lg:w-full mx-auto flex flex-wrap gap-x-16 items-center justify-center border-t border-accent-0/25"
 				>
 					<ContactLink
 						url="https://twitter.com/TimoPruesse/"
@@ -78,7 +84,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="w-full lg:w-2/5 bg-primary-1/75 backdrop-blur-lg rounded-xl">
+		<div class="w-full lg:w-1/2 xl:w-2/5 bg-primary-1/75 backdrop-blur-lg rounded-xl">
 			<Image
 				src={{ jpg: '/images/timo_large.jpg', webp: '/images/timo_large.webp' }}
 				baseType="jpg"

@@ -1,5 +1,6 @@
 import type { RequestHandler } from '@sveltejs/kit';
 
+const now = new Date().toISOString();
 const paths = Object.keys(import.meta.glob('/src/routes/**/+page.svelte'));
 const pages = paths.map((p) => p.replace('/src/routes', '').replace('/+page.svelte', ''));
 
@@ -15,7 +16,6 @@ export const GET: RequestHandler = async () => {
 		'Content-Type': 'application/xml'
 	};
 
-	const now = new Date().toISOString();
 	const urls = pages.map((path) => {
 		const page: Page =
 			path === ''

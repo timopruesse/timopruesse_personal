@@ -89,7 +89,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="w-full lg:w-1/2 xl:w-2/5 bg-primary-1/75 backdrop-blur-lg rounded-xl">
+	<div class="h-full w-full lg:w-1/2 xl:w-2/5 flex items-center relative">
 		<Image
 			src={{ jpg: '/images/timo_large.jpg', webp: '/images/timo_large.webp' }}
 			baseType="jpg"

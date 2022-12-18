@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Imprint | Timo Prüße</title>
-	<meta name="description" content="Imprint | Timo Prüße" />
+	<meta name="description" content="The imprint of timo-pruesse.de" />
 </svelte:head>
 
 <section

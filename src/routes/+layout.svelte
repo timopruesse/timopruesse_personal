@@ -2,7 +2,7 @@
 	import '../app.css';
 </script>
 
-<section class="min-h-screen w-screen overflow-hidden bg-cover antialiased lg:px-6">
+<section class="h-screen overflow-hidden bg-cover antialiased lg:px-6">
 	<slot />
 </section>
 

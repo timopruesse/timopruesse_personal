@@ -11,7 +11,9 @@
 	<meta name="description" content="This is the personal website of Timo Prüße." />
 </svelte:head>
 
-<div class="max-w-screen-xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-32 lg:mt-0">
+<div
+	class="max-w-screen-xl flex items-center h-auto lg:h-full flex-wrap mx-auto mt-32 lg:mt-0 relative"
+>
 	<div
 		class="w-full lg:w-1/2 xl:w-3/5 rounded-l-xl max-lg:rounded-r-xl shadow-2xl bg-primary-1/60 backdrop-blur-lg mx-4 lg:mx-0 text-accent-1"
 	>
@@ -97,7 +99,9 @@
 			class="rounded-xl shadow-2xl hidden lg:block object-contain"
 		/>
 	</div>
-	<nav class="flex items-center justify-center lg:justify-end flex-1 max-lg:my-6">
+	<nav
+		class="flex items-center justify-center flex-1 max-lg:my-6 lg:absolute lg:bottom-8 lg:right-8"
+	>
 		<a href="/imprint" class="text-accent-1 hover:text-accent-2">Imprint</a>
 	</nav>
 </div>

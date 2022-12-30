@@ -12,66 +12,70 @@
 </svelte:head>
 
 <div
-	class="max-w-screen-xl flex items-center h-auto lg:h-full flex-wrap mx-auto mt-32 lg:mt-0 relative"
+	class="max-w-screen-xl w-full flex items-center xl:h-full flex-wrap mx-auto mt-20 md:mt-32 lg:mt-28 xl:mt-0 relative flex-1"
 >
 	<div
-		class="w-full lg:w-1/2 xl:w-3/5 rounded-l-xl max-lg:rounded-r-xl shadow-2xl bg-primary-1/60 backdrop-blur-lg mx-4 lg:mx-0 text-accent-1"
+		class="w-full lg:w-3/4 xl:w-3/5 rounded-l-xl max-xl:rounded-r-xl shadow-2xl bg-primary-1/60 backdrop-blur-lg mx-4 lg:mx-auto xl:mx-0 text-accent-1"
 	>
-		<div class="p-4 md:px-12 pt-12 pb-8 text-center lg:text-left">
+		<div class="px-4 md:px-12 pt-8 pb-6 md:pt-12 md:pb-8 text-center xl:text-left">
 			<Image
 				baseType="jpg"
 				src={{ jpg: '/images/timo_small.jpg', webp: '/images/timo_small.webp' }}
-				class="block lg:hidden rounded-full shadow-xl mx-auto -mt-32 h-48 w-48 object-cover object-center"
+				class="block xl:hidden rounded-full shadow-xl mx-auto -mt-24 md:-mt-32 lg:-mt-36 h-40 w-40 md:h-48 md:w-48 lg:h-52 lg:w-52 object-cover object-center"
 				alt="Avatar of Timo"
 			/>
 
-			<h1 class="text-5xl font-semibold mt-10 lg:mt-0">Timo Prüße</h1>
-			<div class="mx-auto pt-6 border-b border-accent-0/25" />
-			<p
-				class="mt-4 font-semibold text-xl xl:text-2xl flex items-center justify-center lg:justify-start group"
-			>
-				<Office class="h-8 text-accent-0 mr-2 lg:mr-6 group-hover:text-accent-1" />
-				<a
-					href="https://no.studio"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="hover:text-accent-2 transform-gpu hover:scale-110 transition-transform origin-left will-change-transform whitespace-nowrap"
+			<h1 class="text-4xl xl:text-5xl font-semibold mt-8 xl:mt-0">Timo Prüße</h1>
+			<div class="mx-auto pt-4 md:pt-6 border-b border-accent-0/25" />
+			<div class="w-full sm:w-3/4 md:w-2/3 mx-auto xl:w-full">
+				<p
+					class="mt-4 font-semibold text-lg md:text-xl lg:text-2xl flex max-xl:flex-row-reverse items-center justify-between xl:justify-start group"
 				>
-					@niceoutside
-				</a>
-			</p>
-			<p
-				class="mt-4 font-semibold text-xl xl:text-2xl flex items-center justify-center lg:justify-start group"
+					<Office class="h-6 lg:h-8 text-accent-0 mr-2 xl:mr-6 group-hover:text-accent-1" />
+					<a
+						href="https://no.studio"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="hover:text-accent-2 transform-gpu hover:scale-110 transition-transform origin-left will-change-transform whitespace-nowrap"
+					>
+						@niceoutside
+					</a>
+				</p>
+				<p
+					class="mt-4 font-semibold text-lg md:text-xl lg:text-2xl flex max-xl:flex-row-reverse items-center justify-between xl:justify-start group"
+				>
+					<Briefcase class="h-6 lg:h-8 text-accent-0 mr-2 xl:mr-6 group-hover:text-accent-1" />
+					Full-Stack-Developer
+				</p>
+				<p
+					class="mt-4 font-semibold text-lg md:text-xl lg:text-2xl flex max-xl:flex-row-reverse items-center justify-between xl:justify-start group"
+				>
+					<Pin class="h-6 lg:h-8 text-accent-0 mr-2 xl:mr-6 group-hover:text-accent-1" />
+					Braunschweig / Hamburg
+				</p>
+			</div>
+			<div
+				class="mt-8 md:mt-14 font-serif flex relative py-8 group w-full md:w-2/3 xl:w-3/4 max-xl:md:mx-auto"
 			>
-				<Briefcase class="h-8 text-accent-0 mr-2 lg:mr-6 group-hover:text-accent-1" />
-				Full-Stack-Developer
-			</p>
-			<p
-				class="mt-4 font-semibold text-xl xl:text-2xl flex items-center justify-center lg:justify-start group"
-			>
-				<Pin class="h-8 text-accent-0 mr-2 lg:mr-6 group-hover:text-accent-1" />
-				Braunschweig / Hamburg
-			</p>
-			<div class="mt-14 font-serif flex relative py-8 group">
 				<div
-					class="pointer-events-none w-16 h-16 text-7xl text-accent-0 group-hover:text-accent-1 absolute top-0 left-0 pl-3 pt-2 rounded-tl-xl border-l border-t border-accent-0/20 group-hover:border-accent-0/30"
+					class="pointer-events-none w-10 h-10 xl:w-16 xl:h-16 text-5xl md:text-6xl xl:text-7xl text-accent-0 group-hover:text-accent-1 absolute top-0 left-0 pl-1 xl:pl-3 pt-2 rounded-tl-xl border-l border-t border-accent-0/20 group-hover:border-accent-0/30"
 				>
 					“
 				</div>
 				<p
-					class="px-16 xl:px-20 flex-1 lg:text-2xl xl:text-3xl italic text-accent-1/80 group-hover:text-accent-1"
+					class="px-12 sm:px-14 md:px-16 flex-1 text-lg md:text-2xl xl:text-3xl italic text-accent-1/80 group-hover:text-accent-1 text-center"
 				>
-					I love teaching machines how to solve problems.
+					I love teaching machines<br />how to solve problems.
 				</p>
 				<div
-					class="pointer-events-none w-16 h-16 text-7xl text-accent-0 group-hover:text-accent-1 absolute bottom-0 right-0 pb-2 pr-3 rounded-br-xl border-r border-b border-accent-0/20 group-hover:border-accent-0/30"
+					class="pointer-events-none w-12 h-12 xl:w-16 xl:h-16 text-5xl md:text-6xl xl:text-7xl text-accent-0 group-hover:text-accent-1 absolute bottom-0 right-0 pb-2 pr-3 rounded-br-xl border-r border-b border-accent-0/20 group-hover:border-accent-0/30"
 				>
 					<div class="transform-gpu translate-y-1/4 translate-x-1/3">”</div>
 				</div>
 			</div>
 
 			<div
-				class="mt-12 pb-4 lg:pb-6 w-4/5 lg:w-full mx-auto flex flex-wrap gap-x-16 items-center justify-center"
+				class="mt-8 md:mt-12 pb-4 xl:pb-6 w-4/5 xl:w-full mx-auto flex flex-wrap gap-x-16 items-center max-xl:justify-center"
 			>
 				<ContactLink
 					url="https://twitter.com/TimoPruesse/"
@@ -91,16 +95,16 @@
 			</div>
 		</div>
 	</div>
-	<div class="h-full w-full lg:w-1/2 xl:w-2/5 flex items-center relative">
+	<div class="h-full w-full xl:w-2/5 flex items-center relative">
 		<Image
 			src={{ jpg: '/images/timo_large.jpg', webp: '/images/timo_large.webp' }}
 			baseType="jpg"
 			alt="Portrait of Timo"
-			class="rounded-xl shadow-2xl hidden lg:block object-contain"
+			class="rounded-xl shadow-2xl hidden xl:block object-contain"
 		/>
 	</div>
 	<nav
-		class="flex items-center justify-center flex-1 max-lg:my-6 lg:absolute lg:bottom-8 lg:right-8"
+		class="flex items-center justify-center flex-1 max-xl:my-6 xl:absolute xl:bottom-6 2xl:bottom-8 xl:right-6 2xl:right-8"
 	>
 		<a href="/imprint" class="text-accent-1 hover:text-accent-2">Imprint</a>
 	</nav>

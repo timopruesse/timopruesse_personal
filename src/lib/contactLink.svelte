@@ -6,7 +6,7 @@
 
 <a class="link" href={url} target="_blank" rel="noopener noreferrer">
 	<svg
-		class="h-8 fill-current text-accent-0 hover:text-accent-1 transform-gpu hover:scale-125 transition-transform"
+		class="h-6 md:h-8 fill-current text-accent-0 hover:text-accent-1 transform-gpu hover:scale-125 transition-transform"
 		role="img"
 		viewBox="0 0 24 24"
 		xmlns="http://www.w3.org/2000/svg"

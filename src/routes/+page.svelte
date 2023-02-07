@@ -19,10 +19,13 @@
 	>
 		<div class="px-4 md:px-12 pt-8 pb-6 md:pt-12 md:pb-8 text-center xl:text-left">
 			<Image
+				mobile
 				baseType="jpg"
 				src={{ jpg: '/images/timo_small.jpg', webp: '/images/timo_small.webp' }}
-				class="block xl:hidden rounded-full shadow-xl mx-auto -mt-24 md:-mt-32 lg:-mt-36 h-40 w-40 md:h-48 md:w-48 lg:h-52 lg:w-52 object-cover object-center"
-				alt="Avatar of Timo"
+				class="xl:hidden rounded-full shadow-xl mx-auto -mt-24 md:-mt-32 lg:-mt-36 h-40 w-40 md:h-48 md:w-48 lg:h-52 lg:w-52 object-cover object-center aspect-square"
+				alt="Portrait of Timo"
+				height="300"
+				width="300"
 			/>
 
 			<h1 class="text-4xl xl:text-5xl font-semibold mt-8 xl:mt-0">Timo Prüße</h1>
@@ -100,7 +103,9 @@
 			src={{ jpg: '/images/timo_large.jpg', webp: '/images/timo_large.webp' }}
 			baseType="jpg"
 			alt="Portrait of Timo"
-			class="rounded-xl shadow-2xl object-contain"
+			class="rounded-xl shadow-2xl object-contain max-xl:hidden"
+			height="1024"
+			width="768"
 		/>
 	</div>
 	<nav

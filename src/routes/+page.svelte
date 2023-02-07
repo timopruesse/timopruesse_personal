@@ -12,7 +12,7 @@
 </svelte:head>
 
 <div
-	class="max-w-screen-xl w-full flex items-center xl:h-full flex-wrap mx-auto mt-20 md:mt-32 lg:mt-28 xl:mt-0 relative flex-1"
+	class="max-w-screen-xl w-full flex lg:max-xl:flex-col items-center xl:h-full flex-wrap mx-auto mt-20 md:mt-32 lg:mt-28 xl:mt-0 relative flex-1"
 >
 	<div
 		class="w-full lg:w-3/4 xl:w-3/5 rounded-l-xl max-xl:rounded-r-xl shadow-2xl bg-primary-1/60 backdrop-blur-lg mx-4 lg:mx-auto xl:mx-0 text-accent-1"
@@ -95,16 +95,16 @@
 			</div>
 		</div>
 	</div>
-	<div class="h-full w-full xl:w-2/5 flex items-center relative">
+	<div class="h-full w-full xl:w-2/5 flex items-center relative max-xl:hidden">
 		<Image
 			src={{ jpg: '/images/timo_large.jpg', webp: '/images/timo_large.webp' }}
 			baseType="jpg"
 			alt="Portrait of Timo"
-			class="rounded-xl shadow-2xl hidden xl:block object-contain"
+			class="rounded-xl shadow-2xl object-contain"
 		/>
 	</div>
 	<nav
-		class="flex items-center justify-center flex-1 max-xl:my-6 xl:absolute xl:bottom-6 2xl:bottom-8 xl:right-6 2xl:right-8"
+		class="w-full flex justify-center xl:justify-end flex-1 max-xl:my-6 xl:absolute xl:bottom-6 2xl:bottom-8 xl:right-6 2xl:right-8 self-start"
 	>
 		<a href="/imprint" class="text-accent-1 hover:text-accent-2">Imprint</a>
 	</nav>

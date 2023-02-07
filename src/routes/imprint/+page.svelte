@@ -9,7 +9,7 @@
 </svelte:head>
 
 <section
-	class="w-full text-sm flex items-center max-w-screen-xl mx-auto md:mt-32 mb:mb-8 flex-col gap-y-8"
+	class="w-full text-sm flex items-center max-w-screen-md lg:max-w-screen-lg mx-auto md:mt-32 mb:mb-8 flex-col gap-y-8"
 >
 	<a href="/" class="group max-md:mt-6">
 		<h1

@@ -8,20 +8,16 @@
 	<meta name="description" content="The imprint of timo-pruesse.de" />
 </svelte:head>
 
-<section
-	class="w-full text-sm flex items-center max-w-screen-md lg:max-w-screen-lg mx-auto md:mt-32 mb:mb-8 flex-col gap-y-8"
->
-	<a href="/" class="group max-md:mt-6">
-		<h1
-			class="text-4xl md:text-6xl text-accent-2 hover:text-accent-1 transform-gpu group-hover:scale-110 transition-transform flex gap-x-2 items-center"
-		>
-			<ArrowLeft
-				class="h-10 md:h-14 group-hover:-translate-x-4 group-hover:scale-110 transform-gpu transition-transform"
-			/> Timo Prüße
-		</h1>
+<nav class="mt-6 ml-2 text-white self-start">
+	<a href="/" class="group" aria-label="Go to home">
+		<ArrowLeft
+			class="h-10 md:h-16 group-hover:-translate-x-2 group-hover:scale-110 transform-gpu transition-transform"
+		/>
 	</a>
+</nav>
+<section class="w-full text-sm flex max-w-screen-md lg:max-w-screen-lg mx-auto flex-col gap-y-8">
 	<div
-		class="bg-primary-1/90 backdrop-blur-lg p-4 md:px-16 md:pt-10 md:pb-8 text-accent-1 md:rounded-xl"
+		class="bg-black/30 backdrop-blur-lg p-4 md:px-16 md:pt-8 md:pb-10 text-white md:rounded-xl mb-8 md:mb-16"
 	>
 		<h2 class="text-xl mb-4">Impressum</h2>
 

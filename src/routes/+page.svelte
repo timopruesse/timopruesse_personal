@@ -7,15 +7,15 @@
 </script>
 
 <svelte:head>
-	<title>Personal website of Timo Prüße</title>
-	<meta name="description" content="This is the personal website of Timo Prüße." />
+	<title>Timo Prüße</title>
+	<meta name="description" content="Timo Prüße - Full-Stack-Developer, based in Germany" />
 </svelte:head>
 
 <div
 	class="max-w-screen-xl w-full flex lg:max-xl:flex-col items-center xl:h-full flex-wrap mx-auto mt-20 md:mt-32 lg:mt-28 xl:mt-0 relative flex-1"
 >
 	<div
-		class="w-full lg:w-3/4 xl:w-3/5 rounded-l-xl max-xl:rounded-r-xl shadow-2xl bg-primary-1/60 backdrop-blur-lg mx-4 lg:mx-auto xl:mx-0 text-accent-1"
+		class="w-full lg:w-3/4 xl:w-[64%] 2xl:w-3/5 rounded-l-xl max-xl:rounded-r-xl shadow-2xl bg-black/10 backdrop-blur-lg mx-4 lg:mx-auto xl:mx-0 text-white"
 	>
 		<div class="px-4 md:px-12 pt-8 pb-6 md:pt-12 md:pb-8 text-center xl:text-left">
 			<Image
@@ -29,17 +29,17 @@
 			/>
 
 			<h1 class="text-4xl xl:text-5xl font-semibold mt-8 xl:mt-0">Timo Prüße</h1>
-			<div class="mx-auto pt-4 md:pt-6 border-b border-accent-0/25" />
+			<div class="mx-auto pt-6 md:pt-8 mb-6 xl:pt-10 xl:mb-8 border-b border-white/30" />
 			<div class="w-full sm:w-3/4 md:w-2/3 mx-auto xl:w-full">
 				<p
 					class="mt-4 font-semibold text-lg md:text-xl lg:text-2xl flex max-xl:flex-row-reverse items-center justify-between xl:justify-start group"
 				>
-					<Office class="h-6 lg:h-8 text-accent-0 mr-2 xl:mr-6 group-hover:text-accent-1" />
+					<Office class="h-6 lg:h-8 text-white/75 mr-2 xl:mr-6 group-hover:text-white" />
 					<a
 						href="https://no.studio"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="hover:text-accent-2 transform-gpu hover:scale-110 transition-transform origin-left will-change-transform whitespace-nowrap"
+						class="transform-gpu hover:scale-110 transition-transform origin-left will-change-transform whitespace-nowrap"
 					>
 						@niceoutside
 					</a>
@@ -47,13 +47,13 @@
 				<p
 					class="mt-4 font-semibold text-lg md:text-xl lg:text-2xl flex max-xl:flex-row-reverse items-center justify-between xl:justify-start group"
 				>
-					<Briefcase class="h-6 lg:h-8 text-accent-0 mr-2 xl:mr-6 group-hover:text-accent-1" />
+					<Briefcase class="h-6 lg:h-8 text-white/75 mr-2 xl:mr-6 group-hover:text-white" />
 					Full-Stack-Developer
 				</p>
 				<p
 					class="mt-4 font-semibold text-lg md:text-xl lg:text-2xl flex max-xl:flex-row-reverse items-center justify-between xl:justify-start group"
 				>
-					<Pin class="h-6 lg:h-8 text-accent-0 mr-2 xl:mr-6 group-hover:text-accent-1" />
+					<Pin class="h-6 lg:h-8 text-white/75 mr-2 xl:mr-6 group-hover:text-white" />
 					Braunschweig / Hamburg
 				</p>
 			</div>
@@ -61,28 +61,29 @@
 				class="mt-8 md:mt-14 font-serif flex relative py-8 group w-full md:w-2/3 xl:w-3/4 max-xl:md:mx-auto"
 			>
 				<div
-					class="pointer-events-none w-10 h-10 xl:w-16 xl:h-16 text-5xl md:text-6xl xl:text-7xl text-accent-0 group-hover:text-accent-1 absolute top-0 left-0 pl-1 xl:pl-3 pt-2 rounded-tl-xl border-l border-t border-accent-0/20 group-hover:border-accent-0/30"
+					class="pointer-events-none w-10 h-10 xl:w-16 xl:h-16 text-5xl md:text-6xl xl:text-7xl text-white/75 group-hover:text-white absolute top-0 left-0 pl-1 xl:pl-3 pt-2 rounded-tl-xl border-l border-t border-white/50 group-hover:border-white/75"
 				>
 					“
 				</div>
 				<p
-					class="px-12 sm:px-14 md:px-16 flex-1 text-lg md:text-2xl xl:text-3xl italic text-accent-1/80 group-hover:text-accent-1 text-center"
+					class="px-12 sm:px-14 md:px-16 flex-1 text-lg md:text-2xl xl:text-3xl italic text-white/75 group-hover:text-white text-center"
 				>
 					I love teaching machines<br />how to solve problems.
 				</p>
 				<div
-					class="pointer-events-none w-12 h-12 xl:w-16 xl:h-16 text-5xl md:text-6xl xl:text-7xl text-accent-0 group-hover:text-accent-1 absolute bottom-0 right-0 pb-2 pr-3 rounded-br-xl border-r border-b border-accent-0/20 group-hover:border-accent-0/30"
+					class="pointer-events-none w-12 h-12 xl:w-16 xl:h-16 text-5xl md:text-6xl xl:text-7xl text-white/75 group-hover:text-white absolute bottom-0 right-0 pb-2 pr-3 rounded-br-xl border-r border-b border-white/50 group-hover:border-white/75"
 				>
 					<div class="transform-gpu translate-y-1/4 translate-x-1/3">”</div>
 				</div>
 			</div>
 
 			<div
-				class="mt-8 md:mt-12 pb-4 xl:pb-6 w-4/5 xl:w-full mx-auto flex flex-wrap gap-x-16 items-center max-xl:justify-center"
+				class="mt-8 md:mt-12 w-4/5 xl:w-full mx-auto flex flex-wrap gap-x-8 items-center max-xl:justify-center"
 			>
 				<ContactLink
 					url="https://twitter.com/TimoPruesse/"
 					path="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"
+					hoverPath="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
 					title="Twitter"
 				/>
 				<ContactLink
@@ -98,7 +99,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="h-full w-full xl:w-2/5 flex items-center relative max-xl:hidden">
+	<div class="h-full w-full xl:w-[36%] 2xl:w-2/5 flex items-center relative max-xl:hidden">
 		<Image
 			src={{ jpg: '/images/timo_large.jpg', webp: '/images/timo_large.webp' }}
 			baseType="jpg"
@@ -111,6 +112,6 @@
 	<nav
 		class="w-full flex justify-center xl:justify-end flex-1 max-xl:my-6 xl:absolute xl:bottom-6 2xl:bottom-8 xl:right-6 2xl:right-8 self-start"
 	>
-		<a href="/imprint" class="text-accent-1 hover:text-accent-2">Imprint</a>
+		<a href="/imprint" class="text-white hover:underline">Imprint</a>
 	</nav>
 </div>

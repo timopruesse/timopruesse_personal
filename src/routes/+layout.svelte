@@ -8,10 +8,10 @@
 
 <style lang="scss">
 	section {
-		background-image: url('/images/bg_sunset.jpg');
+		background-image: url('/images/bg_flowers.jpg');
 
-		@supports (background-image: url('/images/bg_sunset.webp')) {
-			background-image: url('/images/bg_sunset.webp');
+		@supports (background-image: url('/images/bg_flowers.webp')) {
+			background-image: url('/images/bg_flowers.webp');
 		}
 	}
 </style>

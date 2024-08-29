@@ -14,7 +14,7 @@ const config = {
 
 	kit: {
 		adapter: vercel({
-			maxDuration: 300
+			maxDuration: 60
 		})
 	},
 
